@@ -26,7 +26,7 @@ class FlowField {
 				push();
 				translate(this.density * i, this.density * j);
 				stroke(100);
-				line(0, 0, this.vectors[i][j].x * 100, this.vectors[i][j].y * 100);
+				line(0, 0, this.vectors[i][j].x * 20, this.vectors[i][j].y * 20);
 				pop();
 			}
 		}

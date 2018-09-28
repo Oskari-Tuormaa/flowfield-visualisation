@@ -12,7 +12,7 @@ class Particle {
 	show() {
 		push();
 		noStroke();
-		fill(255, 255, 255, 5);
+		fill(255, 1);
 		translate(this.pos.x, this.pos.y);
 		ellipse(0, 0, this.radius * 2, this.radius * 2);
 		pop();
